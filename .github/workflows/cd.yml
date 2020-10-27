@@ -1,7 +1,7 @@
 name: Continuos Deployment workflow
 
 on:
-  push:
+  merge:
     branches:
       - master
 
